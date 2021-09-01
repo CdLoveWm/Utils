@@ -1,16 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31612.314
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.Console", "Utils.Console\Utils.Console.csproj", "{645094C1-FF25-4E07-9E27-86CE591BF35C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils.Console", "Utils.Console\Utils.Console.csproj", "{645094C1-FF25-4E07-9E27-86CE591BF35C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.Email", "Utils.Email\Utils.Email.csproj", "{F670CDE3-669A-427E-93E0-377FE548E926}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils.Email", "Utils.Email\Utils.Email.csproj", "{F670CDE3-669A-427E-93E0-377FE548E926}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1B05435D-ADBA-429D-AEB4-9F933BF9449C}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.md = Readme.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.Encrypt", "Utils.Encrypt\Utils.Encrypt.csproj", "{FF159B5A-0E18-4B95-AF92-1BEB9F86424C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{F670CDE3-669A-427E-93E0-377FE548E926}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F670CDE3-669A-427E-93E0-377FE548E926}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F670CDE3-669A-427E-93E0-377FE548E926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF159B5A-0E18-4B95-AF92-1BEB9F86424C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF159B5A-0E18-4B95-AF92-1BEB9F86424C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF159B5A-0E18-4B95-AF92-1BEB9F86424C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF159B5A-0E18-4B95-AF92-1BEB9F86424C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
