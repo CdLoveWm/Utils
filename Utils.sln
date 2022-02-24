@@ -12,7 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.Encrypt", "Utils.Encrypt\Utils.Encrypt.csproj", "{FF159B5A-0E18-4B95-AF92-1BEB9F86424C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils.Encrypt", "Utils.Encrypt\Utils.Encrypt.csproj", "{FF159B5A-0E18-4B95-AF92-1BEB9F86424C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.QrCode", "Utils.QrCode\Utils.QrCode.csproj", "{D9B1FD1D-EF40-422B-B64A-F267B00AEDCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{FF159B5A-0E18-4B95-AF92-1BEB9F86424C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF159B5A-0E18-4B95-AF92-1BEB9F86424C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF159B5A-0E18-4B95-AF92-1BEB9F86424C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B1FD1D-EF40-422B-B64A-F267B00AEDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B1FD1D-EF40-422B-B64A-F267B00AEDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B1FD1D-EF40-422B-B64A-F267B00AEDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B1FD1D-EF40-422B-B64A-F267B00AEDCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
