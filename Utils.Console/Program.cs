@@ -3,7 +3,9 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 using Utils.Encrypt;
+using Utils.Infrastructure;
 using Utils.QrCode;
+using System.Linq;
 using sconsole = System.Console;
 
 namespace Utils.Console
@@ -23,9 +25,16 @@ namespace Utils.Console
             #endregion
 
             #region 二维码生成
-            string content = "二维码内容";
-            string src = "/QrCode.png";
-            QrCodeUtil.GenerateQrCode(content, src);
+            //string content = "二维码内容";
+            //string src = "/QrCode.png";
+            //QrCodeUtil.GenerateQrCode(content, src);
+            #endregion
+
+            #region 方法调用链
+
+            TestCallChain.Test1();
+            CallChain.PrintCurrent();
+
             #endregion
 
             sconsole.ReadLine();
