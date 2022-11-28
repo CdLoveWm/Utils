@@ -16,7 +16,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils.Encrypt", "Utils.Encr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils.QrCode", "Utils.QrCode\Utils.QrCode.csproj", "{D9B1FD1D-EF40-422B-B64A-F267B00AEDCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.Infrastructure", "Utils.Infrastructure\Utils.Infrastructure.csproj", "{331216E1-C6B3-4423-8292-18B862A0DD86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils.Infrastructure", "Utils.Infrastructure\Utils.Infrastructure.csproj", "{331216E1-C6B3-4423-8292-18B862A0DD86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.Docment.Convert", "Utils.Docment.Convert\Utils.Docment.Convert.csproj", "{C2985BDC-29CE-4E3F-AC39-4ACDA9CED8B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +46,10 @@ Global
 		{331216E1-C6B3-4423-8292-18B862A0DD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{331216E1-C6B3-4423-8292-18B862A0DD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{331216E1-C6B3-4423-8292-18B862A0DD86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2985BDC-29CE-4E3F-AC39-4ACDA9CED8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2985BDC-29CE-4E3F-AC39-4ACDA9CED8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2985BDC-29CE-4E3F-AC39-4ACDA9CED8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2985BDC-29CE-4E3F-AC39-4ACDA9CED8B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
