@@ -5,4 +5,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FreeSpire.XLS" Version="12.7.0" />
+  </ItemGroup>
+
 </Project>
